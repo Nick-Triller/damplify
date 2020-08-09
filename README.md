@@ -20,14 +20,13 @@ Furthermore, blocking the traffic is hindered as it originates from a large numb
 
 ## Installation
 
-Compile damplify with:
+Build damplify with the following command (requires go):
 ```
-go install github.com/Nick-Triller/damplify
+go install github.com/nick-triller/damplify
 ```
 
 ## Usage
 
-Help:
 ```
 A DNS ampflification attack tool
 
@@ -42,7 +41,7 @@ Flags:
 
 Example invocation:
 ```
-damplify 192.168.178.40 9998
+damplify --resolversPath resolvers.txt 192.168.178.40 9998
 ```
 
 ## Limitations
